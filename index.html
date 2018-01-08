@@ -12,17 +12,22 @@
 <body>
 	<header>
 		<div id="contact">
-			<div class="col-xs-6">
-				<a href="mailto:email@kontaktowy.pl">
-					<img src="assets/img/mail.png" alt="">
-					<p>email@kontaktowy.pl</p>
-				</a>
-			</div>
-			<div class="col-xs-6">
-				<a href="tel:+48 000000000">
-					<img src="assets/img/phone.png" alt="">
-					<p>+48 000 000 000</p>
-				</a>
+			<div class="container">
+				<div class="hidden-xs col-sm-6">
+					<p><span>POTRZEBUJESZ POMOCY?</span>  Skontaktuj się z nami!</p>
+				</div>
+				<div class="col-xs-6 col-sm-3">
+					<a href="mailto:email@kontaktowy.pl">
+						<img src="assets/img/mail.png" alt="">
+						<p>email@kontaktowy.pl</p>
+					</a>
+				</div>
+				<div class="col-xs-6 col-sm-3">
+					<a href="tel:+48 000000000">
+						<img src="assets/img/phone.png" alt="">
+						<p>+48 000 000 000</p>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div class="container">
@@ -48,11 +53,13 @@
 	</header>
 	<section id="book">
 		<div class="container">
-		<!-- <img src="assets/img/book.png" id="bookimg" alt=""> -->
-
 			<div class="col-xs-12 col-sm-6 page">
 				<h2 class="underline">SPIS TREŚCI</h2>
-				<h3>CONTENT NA BLOGU</h3>
+				<h3><span>1</span>WSTĘP</h3>
+				<ul>
+					<li><span>Wprowadzenie</span> Anna Gromańska</li>
+				</ul> 
+				<h3><span>2</span>CONTENT NA BLOGU</h3>
 				<ul>
 					<li><span>Co jest hot?</span> Emilia Radecka</li>
 					<li><span>SEO</span> Maciej Dobkowicz</li>
@@ -62,7 +69,7 @@
 					<li><span>Tipy redaktorskie</span> Izabela Bogus</li>
 					<li><span>Narzędzia Semstorm</span> Anna Garwolińska</li>
 				</ul> 
-				<h3>ANALITYKA I DYSTRYBUCJA</h3>
+				<h3><span>3</span>ANALITYKA I DYSTRYBUCJA</h3>
 				<ul>
 					<li><span>Google Analytics: X raportów i Y współczynników, które powiedzą Ci WSZYSTKO</span> Michał Stroyvans</li>
 				</ul>
@@ -74,7 +81,7 @@
 					<li><span>Lista niezbędników</span> Aleksandra Dengo, Małgorzata Kamińska</li>
 					<li><span>Kryzysy blogerskie, jak sobie radzić, trendy i dokąd zmierzamy</span> XXX Czaplicka</li>
 				</ul>
-				<h3>ZARABIANIE</h3>
+				<h3><span>4</span>ZARABIANIE</h3>
 				<ul>
 					<li><span>Jak zarabiać zostając etycznym i autentycznym</span> Małgorzata Kamińska</li>
 					<li><span>Twoja oferta</span> Małgorzata Kamińska</li>
@@ -83,6 +90,9 @@
 					<li><span>Sieci afiliacyjne</span> Anna Gromańska,Małgorzata Kamińska</li>
 					<li><span>Czego nauczysz się od gigantów mediowych oraz gigantów e-handlu</span> Izabela Bogus</li>
 				</ul>
+				<a href="#form"><div class="button">POBIERZ TERAZ
+					<img src="assets/img/download.png" alt="">
+				</div></a>
 			</div>
 			<div id="pagination" class="hidden-sm hidden-md hidden-lg">
 				<div class="page-btn"><img src="assets/img/left-arrow-mb.png" alt=""></div>
@@ -175,10 +185,10 @@
 		<h2 class="title">partnerzy</h2>
 		<div class="slider partners">
 			<ul>
-				<li class="active">
+				<li>
 					<img src="assets/img/partnerzy/logo.png" alt="">
-					<h3 class="show">NAZWA BLOGERA</h3>
-					<p class="show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta deserunt maiores praesentium nam laudantium quam, natus fuga ratione repudiandae non sed dignissimos. Ipsam, officiis, quidem. Laboriosam, neque. Cupiditate corporis vel esse eveniet consequuntur, harum, sunt sequi, in maxime laudantium ea!</p>
+					<h3>NAZWA BLOGERA</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta deserunt maiores praesentium nam laudantium quam, natus fuga ratione repudiandae non sed dignissimos. Ipsam, officiis, quidem. Laboriosam, neque. Cupiditate corporis vel esse eveniet consequuntur, harum, sunt sequi, in maxime laudantium ea!</p>
 				</li>
 				<li>
 					<img src="assets/img/partnerzy/logo2.png" alt="">
@@ -190,10 +200,10 @@
 					<h3>NAZWA BLOGERA</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta deserunt maiores praesentium nam laudantium quam, natus fuga ratione repudiandae non sed dignissimos. Ipsam, officiis, quidem. Laboriosam, neque. Cupiditate corporis vel esse eveniet consequuntur, harum, sunt sequi, in maxime laudantium ea!</p>
 				</li>
-				<li>
+				<li class="active">
 					<img src="assets/img/partnerzy/logo.png" alt="">
-					<h3>NAZWA BLOGERA</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta deserunt maiores praesentium nam laudantium quam, natus fuga ratione repudiandae non sed dignissimos. Ipsam, officiis, quidem. Laboriosam, neque. Cupiditate corporis vel esse eveniet consequuntur, harum, sunt sequi, in maxime laudantium ea!</p>
+					<h3 class="show">NAZWA BLOGERA</h3>
+					<p class="show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta deserunt maiores praesentium nam laudantium quam, natus fuga ratione repudiandae non sed dignissimos. Ipsam, officiis, quidem. Laboriosam, neque. Cupiditate corporis vel esse eveniet consequuntur, harum, sunt sequi, in maxime laudantium ea!</p>
 				</li>
 				<li>
 					<img src="assets/img/partnerzy/logo2.png" alt="">
@@ -216,25 +226,23 @@
 			<p>i dowiedz się, jak wybić się w blogosferze!</p>
 			<form action="#" id="form">
 				<label>
-					<input type="text" name="name" placeholder="Imię*"><br>
+					<input type="text" name="name" placeholder="Imię*" id="name"><br>
 				</label>
 				<label>
-					<input type="text" name="surname" placeholder="Nazwisko*"><br>
+					<input type="text" name="surname" placeholder="Nazwisko*" id="surname"><br>
 				</label>
 				<label>
-					<input type="email" name="email" placeholder="E-mail*"><br>
+					<input type="email" name="email" placeholder="E-mail*" id="email"><br>
 				</label>
 				<label>
-					<input type="text" name="www" placeholder="Adres bloga/strony"><br>
+					<input type="text" name="www" placeholder="Adres bloga/strony" id="www"><br>
 				</label>
 				</form>
-					<div class="checkbox check-box">
-					<input type="checkbox" id="form-agree" checked>
+					<div class="checkbox">
+					<input type="checkbox" id="checkbox" checked>
 					<label for="form-agree">Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z regulaminem.  Czytaj regulamin >></label>
 				</div>
-				<form>
-					<button class="button" type="submit">WYŚLIJ</button>
-				</form>
+				<input class="button" type="submit" form="form" value="WYŚLIJ">
 				<p>* Pola oznaczone gwiazdką są obowiązkowe</p>
 		</div>
 	</footer>
