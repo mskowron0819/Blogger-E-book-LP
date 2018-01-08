@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400i,600,700');
+@font-face {
+    font-family: 'Elephant';
+    src: url('fonts/Elephant.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.otf');
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+}
+header{
+	width: 100%;
+	min-height: 758px;
+	height: auto;
+}
+a{
+	color: inherit;
+}
+#contact{
+	background-color: rgba(221, 57, 57, 0.8);
+	height: 55px;
+}
+#contact img{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20px;
+}
+#contact p{
+	line-height: 55px;
+	margin: 0 0 0 25px;
+	font-size: 13px;
+	text-align: center;
+}
+#intro{
+	padding: 0;
+}
+#intro h1{
+	font-family: "Elephant", sans-serif;
+	font-size: 28px;
+	font-weight: 200;
+	text-align: center;
+	letter-spacing: -1px;
+	margin: 40px 0;
+}
+#intro span{
+	color: rgb(221, 57, 57);
+	font-family: 'Open Sans';
+	font-size: 18px;
+}
+#intro h2{
+	font-weight: 700;
+	font-size: 18px;
+	font-family: 'Montserrat';
+}
+#intro p{
+	text-align: justify;
+	margin-top: 20px;
+	font-size: 13px;
+}
+#intro p:last-of-type{
+	font-weight: 700;
+}
+#intro div:first-of-type{
+	margin: 35px auto;
+	min-height: 23px;
+}
+#intro img{
+	padding-left: 0;
+	padding-right: 0;
+}
+.button{
+	font-family: 'Montserrat';
+	background-color: #ffcb2d;
+	border-radius: 27px;
+	width: 176px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 3px;
+	border: none;
+}
+#intro .button img{
+	padding-left: 3px;
+}
+.underline{
+	border-bottom: 2px solid #ffcb2d;
+	padding-bottom: 20px;
+	white-space: nowrap;
+	width: 82px;
+}
+#book{
+	background: url('img/book.png') no-repeat left/185% 100%; 
+	position: relative;
+	top: -100px;
+	width: 100%;
+	color: #000;
+	height: 600px;
+}
+#book h2{
+	margin-top: 0;
+}
+#book ul{
+	padding-left: 15px;
+	margin-top: 0;
+}
+#book ul span{
+	font-weight: 600;
+}
+#pagination{
+	width: 85px;
+	position: absolute;
+	bottom: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.page{
+	margin-top: 30px;
+}
+.page-position{
+	background-position: right !important;
+	padding-left: 30px;
+}
+.page-btn{
+	width: 27px;
+	height: 27px;
+	background-color: #e0e1e3;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+}
+.page-active{
+	background-color: #ffcb2d;
+}
+.title{
+	font-size: 50px;
+	letter-spacing: -1px;
+	color: rgb(218,33,40);
+	font-family: "Elephant";
+	text-align: center;
+}
+.slider{
+	color: #000;
+	position: relative;
+}
+.slider h3{
+	font-family: 'Montserrat';
+	font-size: 18px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.slider span{
+	color: rgb(221, 57, 57);
+	font-weight: 600;
+}
+.active{
+	display: block !important;
+}
+.slider ul {
+	width: 300px;
+  	list-style: none;
+  	margin: 0 auto;
+  	padding: 0;
+  	text-align: center;
+}
+.slider ul li{
+	display: inline-block;
+}
+.slider ul img{
+	display: block;
+	margin: 0 auto;
+}
+
+.authors ul img{
+	border-radius: 50%;
+}
+.partners ul img{
+	height: 90px;
+	padding: 15px;
+}
+.partners .prev, .partners .next{
+	top: 50px;
+}
+.prev, .next{
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 100px;
+	transform: translateY(-50%);
+}
+.next{
+	right: 0;
+}
+.slider-underline:before{
+	content: '';
+	display: block;
+	width: 82px;
+	height: 2px;
+	background-color: #ffcb2d;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+footer{
+	background-color: #d92127;
+	text-align: center;
+	margin-top: 70px;
+}
+footer h2{
+	font-family: 'Elephant';
+	font-size: 45px;
+	letter-spacing: -1px;
+	margin-bottom: 20px;
+}
+footer p{
+	font-size: 24px;
+	margin-top: 0;
+}
+footer p:last-child{
+	font-size: 13px;
+}
+#form input{
+	padding-left: 25px;
+	color: #000;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border-radius: 23px;
+    -webkit-appearance: none; 
+    box-shadow: none !important;
+    border: none;
+    width: 289px;
+	height: 46px;
+	margin-top: 20px;
+}
+
+@media only screen and (min-width: 576px){
+	#contact img{
+		width: 30px;
+	}
+	#contact p{
+		font-size: 17px;
+	}
+	.slider h3, .slider p{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	
+}
